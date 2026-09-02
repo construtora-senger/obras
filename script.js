@@ -1,14 +1,14 @@
-/* Construtora Senger — portfólio de obras para terceiros
-   Único efeito da página: os números sobem uma vez quando entram na tela.
-   Quem tiver "reduzir movimento" ligado no aparelho vê os números já prontos. */
+/* Construtora Senger — portfólio de obras para terceiros */
 
+/* 1. Os números sobem uma vez quando entram na tela.
+      Quem tem "reduzir movimento" ligado vê os números já prontos. */
 (function () {
   'use strict';
 
   var reduzir = window.matchMedia &&
                 window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  var alvos = document.querySelectorAll('.num[data-alvo]');
+  var alvos = document.querySelectorAll('[data-alvo]');
   if (!alvos.length || reduzir || !('IntersectionObserver' in window)) return;
 
   function formatar(valor, milhar) {
@@ -18,7 +18,7 @@
   function contar(el) {
     var fim = parseInt(el.getAttribute('data-alvo'), 10);
     var milhar = el.hasAttribute('data-milhar');
-    var dur = 950;
+    var dur = 900;
     var ini = null;
 
     el.textContent = formatar(0, milhar);
@@ -36,18 +36,15 @@
 
   var obs = new IntersectionObserver(function (entradas) {
     entradas.forEach(function (e) {
-      if (e.isIntersecting) {
-        contar(e.target);
-        obs.unobserve(e.target);
-      }
+      if (e.isIntersecting) { contar(e.target); obs.unobserve(e.target); }
     });
-  }, { threshold: 0.55 });
+  }, { threshold: 0.5 });
 
   alvos.forEach(function (el) { obs.observe(el); });
 })();
 
-/* A barra fixa do WhatsApp só entra depois que a pessoa passa do topo,
-   para não repetir o botão que já está na primeira tela. */
+
+/* 2. A barra do WhatsApp entra depois que a pessoa passa da primeira tela. */
 (function () {
   'use strict';
 
@@ -55,16 +52,40 @@
   var hero = document.querySelector('.hero');
   if (!barra || !hero) return;
 
-  if (!('IntersectionObserver' in window)) {
-    barra.classList.add('visivel');
-    return;
-  }
+  if (!('IntersectionObserver' in window)) { barra.classList.add('visivel'); return; }
 
   var obs = new IntersectionObserver(function (entradas) {
     entradas.forEach(function (e) {
       barra.classList.toggle('visivel', !e.isIntersecting);
     });
-  }, { threshold: 0, rootMargin: '-70% 0px 0px 0px' });
+  }, { threshold: 0, rootMargin: '-72% 0px 0px 0px' });
 
   obs.observe(hero);
+})();
+
+
+/* 3. A faixa de obras rola de lado. A seta e o botão "ver todas" empurram
+      a faixa; no fim, ela volta para o começo. */
+(function () {
+  'use strict';
+
+  var trilho = document.getElementById('trilho');
+  var seta = document.getElementById('seta');
+  var verTodas = document.getElementById('ver-todas');
+  if (!trilho) return;
+
+  function avancar() {
+    var cartao = trilho.querySelector('.obra');
+    var passo = cartao ? cartao.getBoundingClientRect().width + 2 : 240;
+    var fim = trilho.scrollWidth - trilho.clientWidth - 4;
+
+    if (trilho.scrollLeft >= fim) {
+      trilho.scrollTo({ left: 0, behavior: 'smooth' });
+    } else {
+      trilho.scrollBy({ left: passo * 2, behavior: 'smooth' });
+    }
+  }
+
+  if (seta) seta.addEventListener('click', avancar);
+  if (verTodas) verTodas.addEventListener('click', avancar);
 })();
