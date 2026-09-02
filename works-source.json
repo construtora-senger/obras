@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Hospital de Clínicas de Carazinho",
+    "short": "HCC",
+    "city": "Carazinho/RS",
+    "year": "2024",
+    "image": "assets/images/obras/hcc.webp",
+    "desc": "Ampliação da recepção, internação e Centro de Convivência Azelar Kissmann, com foco em comodidade, acessibilidade e segurança."
+  },
+  {
+    "name": "Estação 599",
+    "short": "Estação 599",
+    "city": "Carazinho/RS",
+    "year": "2024",
+    "image": "assets/images/obras/estacao_599.webp",
+    "desc": "Empreendimento entregue em 2024 e apresentado entre as obras que constroem a história da Senger."
+  },
+  {
+    "name": "Bianchini",
+    "short": "Bianchini",
+    "city": "Santa Bárbara",
+    "year": "2022",
+    "image": "assets/images/obras/bianchini.webp",
+    "desc": "Obra industrial/corporativa que demonstra a capacidade da Senger em diferentes segmentos."
+  },
+  {
+    "name": "Loja Lavoro",
+    "short": "Lavoro",
+    "city": "Carazinho/RS",
+    "year": "2018",
+    "image": "assets/images/obras/lavoro.webp",
+    "desc": "2.130,29 m² com showroom, escritórios e vendas, depósito, oficina e lavagem."
+  },
+  {
+    "name": "SEST/SENAT",
+    "short": "SEST/SENAT",
+    "city": "Carazinho/RS",
+    "year": "2018",
+    "image": "assets/images/obras/sest_senat.webp",
+    "desc": "4.391,98 m² com ginásio poliesportivo, área de saúde, treinamento de caminhões, centro de eventos, administrativo e salas de aula."
+  },
+  {
+    "name": "Instituto Federal Farroupilha",
+    "short": "IF Farroupilha",
+    "city": "Panambi/RS",
+    "year": "2017",
+    "image": "assets/images/obras/if_farroupilha.webp",
+    "desc": "1.116,88 m² com laboratórios, salas de aula, sanitários e administração."
+  },
+  {
+    "name": "Sesc",
+    "short": "Sesc",
+    "city": "Carazinho/RS",
+    "year": "2016",
+    "image": "assets/images/obras/sesc.webp",
+    "desc": "Unidade do Sesc entregue em Carazinho, integrando o portfólio institucional da Senger."
+  },
+  {
+    "name": "OAB — Sede Carazinho",
+    "short": "OAB",
+    "city": "Carazinho/RS",
+    "year": "2015",
+    "image": "assets/images/obras/oab.webp",
+    "desc": "539,77 m² com salas, auditório e salão de festas."
+  },
+  {
+    "name": "Hotel Ibis Budget",
+    "short": "Hotel Ibis",
+    "city": "Não-Me-Toque/RS",
+    "year": "2014",
+    "image": "assets/images/obras/ibis.webp",
+    "desc": "Projeto da rede Ibis executado pela Senger, com quartos, restaurante e auditório."
+  },
+  {
+    "name": "Residencial Alto Panambi",
+    "short": "Alto Panambi",
+    "city": "Panambi/RS",
+    "year": "2014",
+    "image": "assets/images/obras/alto_panambi_1.webp",
+    "desc": "Condomínio com 7 edifícios de 5 pavimentos, totalizando 7.188,54 m²."
+  },
+  {
+    "name": "Centro de Convivência UPF",
+    "short": "UPF",
+    "city": "Passo Fundo/RS",
+    "year": "2009",
+    "image": "assets/images/obras/upf.webp",
+    "desc": "Centro de convivência da Universidade de Passo Fundo."
+  },
+  {
+    "name": "Caixa Econômica Federal",
+    "short": "Caixa Econômica",
+    "city": "Carazinho/RS",
+    "year": "2009",
+    "image": "assets/images/obras/caixa.webp",
+    "desc": "Agência da Caixa Econômica Federal em Carazinho."
+  },
+  {
+    "name": "Supermercado Economia da Praça",
+    "short": "Economia da Praça",
+    "city": "Carazinho/RS",
+    "year": "2000",
+    "image": "assets/images/obras/economia.webp",
+    "desc": "Obra relevante para o comércio local e parte da paisagem de Carazinho desde 2000."
+  },
+  {
+    "name": "Biblioteca Pública Dr. Guilherme Schultz Filho",
+    "short": "Biblioteca Pública",
+    "city": "Carazinho/RS",
+    "year": "1980",
+    "image": "assets/images/obras/biblioteca.webp",
+    "desc": "Obra realizada para a Prefeitura de Carazinho, marco histórico da atuação da Senger na cidade."
+  }
+]
