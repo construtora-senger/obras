@@ -1,356 +1,328 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Construtora Senger — Obras para terceiros</title>
-<meta name="description" content="Desde 1967, a Construtora Senger executa obras para terceiros no norte do Rio Grande do Sul. 96 obras entregues: hospitais, escolas, agências bancárias, indústrias, hotéis e prédios públicos.">
-<meta name="theme-color" content="#0A0E12">
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="Construtora Senger — Obras para terceiros">
-<meta property="og:description" content="96 obras entregues para terceiros. Desde 1967.">
-<meta property="og:image" content="assets/hotel/hotel_hero_1600.jpg">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@87..112,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<script src="./support.js"></script>
+<template id="__bundler_thumbnail" data-bg-color="#0A0E12">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#0A0E12"/>
+    <text x="600" y="410" text-anchor="middle" font-family="Archivo, Helvetica, Arial, sans-serif" font-size="150" font-weight="800" letter-spacing="26" fill="#C8944F">SENGER</text>
+    <rect x="470" y="470" width="260" height="4" fill="#C8944F"/>
+    <text x="600" y="540" text-anchor="middle" font-family="Archivo, Helvetica, Arial, sans-serif" font-size="42" font-weight="600" letter-spacing="18" fill="#948D82">DESDE 1967</text>
+  </svg>
+</template>
 </head>
 <body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  html, body { margin: 0; padding: 0; background: #07090C; }
+  * { box-sizing: border-box; }
+  a { color: #C8944F; text-decoration: none; }
+  a:hover { color: #E3B87C; }
+  video { display: block; }
+  div[data-track]::-webkit-scrollbar { display: none; }
+</style>
+</helmet>
 
-<a class="pular" href="#obras">Ir para as obras</a>
+<div style="background:#07090C;font-family:Archivo,system-ui,sans-serif;color:#EDE9E3;-webkit-font-smoothing:antialiased">
+<div style="max-width:1180px;margin:0 auto;background:#0A0E12">
 
-<!-- ===================== TOPO ===================== -->
-<header class="topo" id="topo">
-  <a class="marca" href="#topo">
-    <img src="assets/marca/logo_senger.png" alt="Construtora Senger" width="560" height="792">
-  </a>
-
-  <nav class="nav">
-    <a class="nav-ativo" href="#topo">Home</a>
-    <a href="#obras">Obras</a>
-    <a href="#hotel">Hotel atual</a>
-    <a href="#geracoes">Sobre nós</a>
-    <a href="#contato">Contato</a>
-  </nav>
-
-  <a class="btn-topo" href="https://wa.me/5554984346602?text=Ol%C3%A1%2C%20vim%20pelo%20portf%C3%B3lio%20de%20obras%20e%20quero%20falar%20sobre%20a%20minha%20obra." target="_blank" rel="noopener">
-    <svg viewBox="0 0 24 24" aria-hidden="true" width="15" height="15"><path fill="currentColor" d="M17.5 14.4c-.3-.2-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.5v-.5l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4a3 3 0 0 0-.9 2.2A5.2 5.2 0 0 0 7 11.6a11.9 11.9 0 0 0 4.6 4 8.7 8.7 0 0 0 2.5.7 3.4 3.4 0 0 0 2.3-.4 2.7 2.7 0 0 0 1.2-1.3 2.3 2.3 0 0 0 .1-1.2zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m0 1.8a8.2 8.2 0 0 1 6.6 13 8.1 8.1 0 0 1-10.7 1.7l-.4-.2-3 .8.8-3-.2-.4A8.2 8.2 0 0 1 12 3.8"/></svg>
-    Falar com a Senger
-  </a>
+<header data-screen-label="Nav" style="display:flex;align-items:center;justify-content:space-between;padding:clamp(16px,2.6vw,26px) clamp(18px,4vw,48px);border-bottom:1px solid rgba(255,255,255,0.07)">
+  <div style="display:flex;flex-direction:column;gap:3px">
+    <div style="font-size:clamp(19px,2.4vw,26px);font-weight:800;letter-spacing:0.14em;line-height:1">SENGER</div>
+    <div style="font-size:clamp(8px,0.85vw,9px);font-weight:500;letter-spacing:0.4em;color:#8C8579;line-height:1">CONSTRUTORA</div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:5px;padding:6px;cursor:pointer">
+    <div style="width:24px;height:2px;background:#EDE9E3"></div>
+    <div style="width:24px;height:2px;background:#EDE9E3"></div>
+    <div style="width:24px;height:2px;background:#EDE9E3"></div>
+  </div>
 </header>
 
-<!-- ===================== HERO ===================== -->
-<section class="hero">
-
-  <div class="hero-foto">
-    <picture>
-      <source media="(min-width:960px)" srcset="assets/hotel/hotel_hero_1600.jpg">
-      <source media="(min-width:620px)" srcset="assets/hotel/hotel_hero_900.jpg">
-      <img src="assets/hotel/hotel_hero_retrato.jpg" alt="Hotel em execução pela Construtora Senger" fetchpriority="high" width="980" height="980">
-    </picture>
-    <p class="foto-nota ent" style="--d:6">
-      <span class="foto-nota-tit">Obra atual em destaque</span>
-      Hotel
-    </p>
+<section data-screen-label="Hero" style="position:relative;min-height:clamp(330px,52vw,560px);display:flex;align-items:flex-end;overflow:hidden">
+  <img src="https://construtora-senger.github.io/obras/assets/hotel/hotel_hero_retrato.jpg" alt="Obra em execução pela Construtora Senger" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 40%;filter:sepia(0.5) saturate(0.8) brightness(0.6) contrast(1.08)" />
+  <div style="position:absolute;inset:0;background:linear-gradient(100deg,rgba(10,14,18,0.96) 0%,rgba(10,14,18,0.82) 38%,rgba(10,14,18,0.28) 72%,rgba(10,14,18,0.45) 100%)"></div>
+  <div style="position:relative;padding:clamp(22px,5vw,64px) clamp(18px,4vw,48px);max-width:760px">
+    <h1 style="margin:0;font-size:clamp(27px,5.2vw,64px);font-weight:800;line-height:1.02;letter-spacing:-0.015em;text-transform:uppercase;text-wrap:balance">Construímos<br />mais que obras.<br />Construímos<br />confiança.</h1>
+    <div style="margin-top:clamp(16px,2vw,26px);font-size:clamp(12px,1.2vw,15px);font-weight:600;letter-spacing:0.3em;color:#C8944F">DESDE 1967</div>
   </div>
-
-  <div class="hero-txt">
-    <img class="hero-marca" src="assets/marca/logo_senger.png" alt="Construtora Senger" width="560" height="792">
-    <div class="hero-corpo">
-    <p class="olho ent" style="--d:0">Obras para terceiros</p>
-    <h1 class="ent" style="--d:1">Experiência que constrói<br><em>confiança.</em></h1>
-    <span class="fio ent" style="--d:2"></span>
-    <p class="hero-sub ent" style="--d:3">Desde 1967 executando obras para terceiros com qualidade, prazo e excelência em cada detalhe.</p>
-
-    <div class="hero-dados ent" style="--d:4">
-      <p class="hero-dado">
-        <span class="hero-num" data-alvo="96">96</span>
-        <span class="hero-dado-lab">Obras para terceiros<br>entregues</span>
-      </p>
-    </div>
-
-    <div class="hero-acoes ent" style="--d:5">
-      <a class="botao" href="https://wa.me/5554984346602?text=Ol%C3%A1%2C%20vim%20pelo%20portf%C3%B3lio%20de%20obras%20e%20quero%20falar%20sobre%20a%20minha%20obra." target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" aria-hidden="true" width="15" height="15"><path fill="currentColor" d="M17.5 14.4c-.3-.2-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.5v-.5l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4a3 3 0 0 0-.9 2.2A5.2 5.2 0 0 0 7 11.6a11.9 11.9 0 0 0 4.6 4 8.7 8.7 0 0 0 2.5.7 3.4 3.4 0 0 0 2.3-.4 2.7 2.7 0 0 0 1.2-1.3 2.3 2.3 0 0 0 .1-1.2zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m0 1.8a8.2 8.2 0 0 1 6.6 13 8.1 8.1 0 0 1-10.7 1.7l-.4-.2-3 .8.8-3-.2-.4A8.2 8.2 0 0 1 12 3.8"/></svg>
-        Solicitar contato
-      </a>
-      <a class="link-desce" href="#hotel">Conhecer o hotel atual <span aria-hidden="true">&darr;</span></a>
-    </div>
-    </div>
-  </div>
-
 </section>
 
-<!-- ===================== FAIXA DE NÚMEROS ===================== -->
-<section class="revela faixa" aria-label="Números da Construtora Senger">
-  <ul class="faixa-lista">
-    <li>
-      <svg class="ico" viewBox="0 0 40 40" aria-hidden="true"><path d="M6 34V12h11v22M17 34V6h17v28M20 12h4M27 12h4M20 18h4M27 18h4M20 24h4M27 24h4M9 18h5M9 24h5" fill="none" stroke="currentColor" stroke-width="1.15"/></svg>
-      <span class="faixa-txt">
-        <span class="faixa-num" data-alvo="140">140</span>
-        <span class="faixa-lab">Empreendimentos<br>construídos</span>
-      </span>
-    </li>
-    <li>
-      <svg class="ico" viewBox="0 0 40 40" aria-hidden="true"><path d="M8 34V10h13v24M21 34V17h11v17M11 15h3M17 15h1M11 21h3M17 21h1M11 27h3M17 27h1M25 22h4M25 28h4" fill="none" stroke="currentColor" stroke-width="1.15"/></svg>
-      <span class="faixa-txt">
-        <span class="faixa-num" data-alvo="1322" data-milhar="1">1.322</span>
-        <span class="faixa-lab">Apartamentos<br>entregues</span>
-      </span>
-    </li>
-    <li>
-      <svg class="ico" viewBox="0 0 40 40" aria-hidden="true"><rect x="7" y="9" width="26" height="22" fill="none" stroke="currentColor" stroke-width="1.15"/><path d="M7 20h26M20 9v22" fill="none" stroke="currentColor" stroke-width="1.15"/></svg>
-      <span class="faixa-txt">
-        <span class="faixa-num" data-alvo="373">373</span>
-        <span class="faixa-lab">Salas comerciais<br>construídas</span>
-      </span>
-    </li>
-    <li>
-      <svg class="ico" viewBox="0 0 40 40" aria-hidden="true"><rect x="7" y="10" width="26" height="23" fill="none" stroke="currentColor" stroke-width="1.15"/><path d="M7 17h26M14 7v6M26 7v6M13 23h4M22 23h5M13 28h4M22 28h5" fill="none" stroke="currentColor" stroke-width="1.15"/></svg>
-      <span class="faixa-txt">
-        <span class="faixa-mini">Desde</span>
-        <span class="faixa-num">1967</span>
-        <span class="faixa-lab">Tradição e<br>experiência</span>
-      </span>
-    </li>
-    <li>
-      <svg class="ico" viewBox="0 0 40 40" aria-hidden="true"><path d="M5 29h30M7 29c0-8 5.8-14 13-14s13 6 13 14M20 15V8M14 17l-2-5M26 17l2-5" fill="none" stroke="currentColor" stroke-width="1.15"/></svg>
-      <span class="faixa-txt">
-        <span class="faixa-frase">Foco em obras<br>para terceiros</span>
-        <span class="faixa-lab">Nosso propósito</span>
-      </span>
-    </li>
-  </ul>
+<section data-screen-label="Números" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(142px,1fr));background:#0A0E12;border-bottom:1px solid rgba(255,255,255,0.07)">
+  <div style="padding:clamp(18px,3vw,34px) clamp(14px,2.2vw,28px);border-top:1px solid rgba(200,148,79,0.16);border-left:1px solid rgba(200,148,79,0.28)">
+    <div style="font-size:clamp(26px,3.3vw,44px);font-weight:800;line-height:1;color:#C8944F">95</div>
+    <div style="margin-top:9px;font-size:clamp(10px,1.05vw,11px);font-weight:600;letter-spacing:0.08em;line-height:1.5;color:#948D82;overflow-wrap:anywhere">OBRAS PARA<br />TERCEIROS<br />ENTREGUES</div>
+  </div>
+  <div style="padding:clamp(18px,3vw,34px) clamp(14px,2.2vw,28px);border-top:1px solid rgba(200,148,79,0.16);border-left:1px solid rgba(200,148,79,0.28)">
+    <div style="font-size:clamp(26px,3.3vw,44px);font-weight:800;line-height:1;color:#EDE9E3">140</div>
+    <div style="margin-top:9px;font-size:clamp(10px,1.05vw,11px);font-weight:600;letter-spacing:0.08em;line-height:1.5;color:#948D82;overflow-wrap:anywhere">EMPREENDIMENTOS<br />CONSTRUÍDOS</div>
+  </div>
+  <div style="padding:clamp(18px,3vw,34px) clamp(14px,2.2vw,28px);border-top:1px solid rgba(200,148,79,0.16);border-left:1px solid rgba(200,148,79,0.28)">
+    <div style="font-size:clamp(26px,3.3vw,44px);font-weight:800;line-height:1;color:#EDE9E3">1.322</div>
+    <div style="margin-top:9px;font-size:clamp(10px,1.05vw,11px);font-weight:600;letter-spacing:0.08em;line-height:1.5;color:#948D82;overflow-wrap:anywhere">APARTAMENTOS<br />ENTREGUES</div>
+  </div>
+  <div style="padding:clamp(18px,3vw,34px) clamp(14px,2.2vw,28px);border-top:1px solid rgba(200,148,79,0.16);border-left:1px solid rgba(200,148,79,0.28)">
+    <div style="font-size:clamp(26px,3.3vw,44px);font-weight:800;line-height:1;color:#EDE9E3">373</div>
+    <div style="margin-top:9px;font-size:clamp(10px,1.05vw,11px);font-weight:600;letter-spacing:0.08em;line-height:1.5;color:#948D82;overflow-wrap:anywhere">SALAS<br />COMERCIAIS<br />CONSTRUÍDAS</div>
+  </div>
 </section>
 
-<!-- ===================== OBRAS ===================== -->
-<section class="revela obras" id="obras">
-
-  <div class="obras-int">
-    <h2 class="obras-tit">Obras que<br><em>falam por nós</em></h2>
-    <p class="obras-txt">São mais de cinco décadas de obras para terceiros em diferentes segmentos, entregando sempre o mesmo padrão: qualidade, responsabilidade e confiança.</p>
-    <button class="botao botao-fino" type="button" id="ver-todas">Ver todas as obras</button>
-  </div>
-
-  <div class="trilho" id="trilho">
-
-    <article class="obra">
-      <img src="assets/obras/hcc_carazinho_2023.jpg" alt="Hospital de Clínicas de Carazinho" loading="lazy" width="452" height="310">
-      <h3>HCC</h3>
-      <p class="obra-desc">Hospital de Clínicas de Carazinho</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">2023&ndash;2024</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/lavoro_carazinho_2018.jpg" alt="Loja Lavoro Agroindustrial em Carazinho" loading="lazy" width="452" height="310">
-      <h3>Lavoro</h3>
-      <p class="obra-desc">Loja Lavoro Agroindustrial</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">2018</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/sest_senat_carazinho_2018.jpg" alt="SEST/SENAT de Carazinho" loading="lazy" width="452" height="310">
-      <h3>Sest / Senat</h3>
-      <p class="obra-desc">Ginásio, consultórios e centro de eventos</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">2018</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/instituto_federal_farroupilha_panambi_2017.jpg" alt="Instituto Federal Farroupilha, campus Panambi" loading="lazy" width="452" height="310">
-      <h3>IF Farroupilha</h3>
-      <p class="obra-desc">Campus Panambi</p>
-      <p class="obra-local">Panambi / RS</p>
-      <p class="obra-ano">2017</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/sesc_carazinho_2016.jpg" alt="Unidade do Sesc em Carazinho" loading="lazy" width="452" height="310">
-      <h3>Sesc</h3>
-      <p class="obra-desc">Unidade Carazinho</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">2016</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/oab_sede_carazinho_2015.jpg" alt="Sede da OAB em Carazinho" loading="lazy" width="452" height="310">
-      <h3>OAB</h3>
-      <p class="obra-desc">Sede Carazinho</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">2015</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/hotel_ibis_nao_me_toque_2014.jpg" alt="Hotel Ibis Budget de Não-Me-Toque" loading="lazy" width="452" height="310">
-      <h3>Ibis Hotel</h3>
-      <p class="obra-desc">Rede Accor</p>
-      <p class="obra-local">Não-Me-Toque / RS</p>
-      <p class="obra-ano">2014</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/estacao_599_2024.jpg" alt="Empreendimento Estação 599" loading="lazy" width="452" height="310">
-      <h3>Estação 599</h3>
-      <p class="obra-desc">Complexo comercial e gastronômico</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">2024</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/bianchini_santa_barbara_2022.jpg" alt="Unidade industrial Bianchini em Santa Bárbara" loading="lazy" width="452" height="310">
-      <h3>Bianchini</h3>
-      <p class="obra-desc">Obra industrial de grande porte</p>
-      <p class="obra-local">Santa Bárbara / RS</p>
-      <p class="obra-ano">2022</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/caixa_economica_federal_carazinho_2009.jpg" alt="Agência da Caixa Econômica Federal em Carazinho" loading="lazy" width="452" height="310">
-      <h3>Caixa Econômica</h3>
-      <p class="obra-desc">Agência bancária</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">2009</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/centro_convivencia_upf_passo_fundo_2009.jpg" alt="Centro de Convivência da UPF em Passo Fundo" loading="lazy" width="452" height="310">
-      <h3>UPF</h3>
-      <p class="obra-desc">Centro de Convivência</p>
-      <p class="obra-local">Passo Fundo / RS</p>
-      <p class="obra-ano">2009</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/supermercado_economia_carazinho_2000.jpg" alt="Supermercado Economia da Praça em Carazinho" loading="lazy" width="452" height="310">
-      <h3>Economia</h3>
-      <p class="obra-desc">Supermercado Economia da Praça</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">2000</p>
-    </article>
-
-    <article class="obra">
-      <img src="assets/obras/biblioteca_publica_carazinho_1980.jpg" alt="Biblioteca Pública Dr. Guilherme Schultz Filho" loading="lazy" width="452" height="310">
-      <h3>Biblioteca Pública</h3>
-      <p class="obra-desc">Dr. Guilherme Schultz Filho</p>
-      <p class="obra-local">Carazinho / RS</p>
-      <p class="obra-ano">1980</p>
-    </article>
-
-  </div>
-
-  <button class="seta" type="button" id="seta" aria-label="Ver mais obras">
-    <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
-  </button>
-</section>
-
-<!-- ===================== GERAÇÕES + HOTEL ===================== -->
-<section class="revela duo">
-
-  <div class="ger" id="geracoes">
-    <h2 class="bloco-tit">Tradição de gerações</h2>
-    <ul class="pessoas">
-      <li>
-        <span class="retrato" aria-hidden="true">SK</span>
-        <span class="pessoa-nome">Sérgio Kirinus</span>
-        <span class="pessoa-fn">Consultor e conselheiro experiente</span>
-      </li>
-      <li>
-        <span class="retrato" aria-hidden="true">CK</span>
-        <span class="pessoa-nome">Cristian Kirinus</span>
-        <span class="pessoa-fn">Proprietário e engenheiro responsável</span>
-      </li>
-      <li>
-        <span class="retrato" aria-hidden="true">MK</span>
-        <span class="pessoa-nome">Miguel G. Kirinus</span>
-        <span class="pessoa-fn">Estagiário, início da 4ª geração</span>
-      </li>
-    </ul>
-    <p class="ger-txt">Uma empresa familiar construída sobre valores sólidos, ética e compromisso com cada cliente e cada obra. A Senger nasceu executando obras para terceiros e nunca deixou de fazer isso.</p>
-  </div>
-
-  <div class="hotel" id="hotel">
-    <h2 class="bloco-tit">Hotel atual</h2>
-
-    <div class="hotel-arranjo">
-      <div class="video-caixa">
-        <video controls preload="none" poster="assets/hotel/hotel_video_poster.jpg" playsinline>
-          <source src="assets/hotel/hotel_video.mp4" type="video/mp4">
-          Seu navegador não reproduz este vídeo.
-        </video>
-      </div>
-
-      <div class="hotel-lado">
-      <div class="hotel-tiras">
-        <img src="assets/hotel/hotel_hero_1600.jpg" alt="Fachada do hotel ao entardecer" loading="lazy" width="1600" height="900">
-        <img src="assets/hotel/hotel_entrada_900.jpg" alt="Acesso principal do hotel" loading="lazy" width="900" height="506">
-        <img src="assets/hotel/hotel_aerea_900.jpg" alt="Vista lateral aérea do hotel" loading="lazy" width="900" height="506">
-      </div>
-      <p class="hotel-txt">Projeto contemporâneo, imponente e de alto padrão. Cada detalhe foi pensado para entregar uma obra que valoriza a arquitetura, o entorno e a experiência de quem vai usufruir. Mais que construir, a missão é entregar resultados que permanecem.</p>
-      </div>
+<section data-screen-label="Obras entregues" style="padding:clamp(26px,3.4vw,44px) 0 clamp(30px,3.8vw,48px);background:#0A0E12">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:20px;padding:0 clamp(18px,4vw,48px);margin-bottom:clamp(18px,2.2vw,28px)">
+    <div>
+      <div style="font-size:clamp(9px,1.05vw,10px);font-weight:700;letter-spacing:0.28em;color:#C8944F;text-transform:uppercase">Portfólio</div>
+      <h2 style="margin:8px 0 0;font-size:clamp(19px,2.4vw,30px);font-weight:800;line-height:1.1;letter-spacing:-0.005em;text-transform:uppercase">Obras entregues</h2>
+    </div>
+    <div style="display:flex;gap:8px;flex:none">
+      <button type="button" data-nav="prev" aria-label="Obra anterior" style="width:clamp(38px,4vw,46px);height:clamp(38px,4vw,46px);display:flex;align-items:center;justify-content:center;background:transparent;border:1px solid rgba(237,233,227,0.28);color:#EDE9E3;cursor:pointer;padding:0" style-hover="border-color:#C8944F;color:#C8944F">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:18px;height:18px;pointer-events:none"><path d="M15 5l-7 7 7 7" /></svg>
+      </button>
+      <button type="button" data-nav="next" aria-label="Próxima obra" style="width:clamp(38px,4vw,46px);height:clamp(38px,4vw,46px);display:flex;align-items:center;justify-content:center;background:transparent;border:1px solid rgba(237,233,227,0.28);color:#EDE9E3;cursor:pointer;padding:0" style-hover="border-color:#C8944F;color:#C8944F">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="width:18px;height:18px;pointer-events:none"><path d="M9 5l7 7-7 7" /></svg>
+      </button>
     </div>
   </div>
-
+  <div data-track="obras" tabindex="0" style="display:flex;gap:clamp(10px,1.4vw,18px);overflow-x:auto;scroll-snap-type:x proximity;scroll-padding-left:clamp(18px,4vw,48px);padding:2px clamp(18px,4vw,48px);scrollbar-width:none;-webkit-overflow-scrolling:touch;outline:none">
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/estacao_599_2024.jpg" alt="Empreendimento Estação 599" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Estação 599</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Complexo comercial e gastronômico · Carazinho / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2024</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/hcc_carazinho_2023.jpg" alt="Hospital de Clínicas de Carazinho" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">HCC</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Hospital de Clínicas de Carazinho · Carazinho / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2024</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/bianchini_santa_barbara_2022.jpg" alt="Unidade industrial Bianchini em Santa Bárbara" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Bianchini</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Obra industrial de grande porte · Santa Bárbara / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2022</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/lavoro_carazinho_2018.jpg" alt="Loja Lavoro Agroindustrial em Carazinho" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Lavoro</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Loja Lavoro Agroindustrial · Carazinho / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2018</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/sest_senat_carazinho_2018.jpg" alt="SEST/SENAT de Carazinho" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Sest / Senat</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Ginásio, consultórios e centro de eventos · Carazinho / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2018</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/instituto_federal_farroupilha_panambi_2017.jpg" alt="Instituto Federal Farroupilha, campus Panambi" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">IF Farroupilha</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Campus Panambi · Panambi / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2017</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/sesc_carazinho_2016.jpg" alt="Unidade do Sesc em Carazinho" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Sesc</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Unidade Carazinho · Carazinho / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2016</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/hotel_ibis_nao_me_toque_2014.jpg" alt="Hotel Ibis Budget de Não-Me-Toque" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Ibis Hotel</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Rede Accor · Não-Me-Toque / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2014</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/caixa_economica_federal_carazinho_2009.jpg" alt="Agência da Caixa Econômica Federal em Carazinho" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Caixa Econômica</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Agência bancária · Carazinho / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2009</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/centro_convivencia_upf_passo_fundo_2009.jpg" alt="Centro de Convivência da UPF em Passo Fundo" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">UPF</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Centro de Convivência · Passo Fundo / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2009</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/supermercado_economia_carazinho_2000.jpg" alt="Supermercado Economia da Praça em Carazinho" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Economia</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Supermercado Economia da Praça · Carazinho / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 2000</div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;flex:none;width:clamp(226px,26vw,300px);scroll-snap-align:start">
+      <img src="https://construtora-senger.github.io/obras/assets/obras/biblioteca_publica_carazinho_1980.jpg" alt="Biblioteca Pública Dr. Guilherme Schultz Filho" style="width:100%;height:clamp(168px,19vw,224px);object-fit:cover;filter:grayscale(1) contrast(1.06) brightness(0.92);display:block" />
+      <figcaption style="padding-top:14px;border-top:1px solid rgba(200,148,79,0.3);margin-top:14px">
+        <div style="font-size:clamp(14px,1.4vw,17px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Biblioteca Pública</div>
+        <div style="margin-top:6px;font-size:13px;line-height:1.5;color:#948D82">Dr. Guilherme Schultz Filho · Carazinho / RS</div>
+        <div style="margin-top:8px;font-size:11px;font-weight:700;letter-spacing:0.16em;color:#C8944F">ENTREGA 1980</div>
+      </figcaption>
+    </figure>
+  </div>
+  <div style="padding:clamp(14px,1.8vw,20px) clamp(18px,4vw,48px) 0;font-size:11px;font-weight:600;letter-spacing:0.16em;color:#6E685F;text-transform:uppercase">Arraste para o lado ou use as setas</div>
 </section>
 
-<!-- ===================== CONTATO ===================== -->
-<section class="revela contato" id="contato">
-
-  <div class="cta">
-    <svg class="cta-ico" viewBox="0 0 40 48" aria-hidden="true"><path d="M4 46V16h14v30M18 46V4h18v42M22 12h4M30 12h4M22 20h4M30 20h4M22 28h4M30 28h4M22 36h4M30 36h4M8 24h6M8 32h6M8 40h6" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
-    <p class="cta-txt">
-      Sua obra precisa de uma construtora<br>com histórico, estrutura e credibilidade.
-      <span class="cta-linha">Fale com a Senger.</span>
-    </p>
+<section data-screen-label="Segmentos" style="padding:clamp(38px,5vw,64px) clamp(20px,4vw,48px);background:#0E1319;text-align:center">
+  <h2 style="margin:0 auto;max-width:640px;font-size:clamp(14px,1.7vw,21px);font-weight:600;line-height:1.5;letter-spacing:0.02em;text-transform:uppercase;text-wrap:balance"><span style="font-weight:800;color:#C8944F">95 obras</span> entregues para empresas, instituições e investidores</h2>
+  <div style="margin-top:clamp(30px,4vw,46px);display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:clamp(16px,1.6vw,24px);max-width:820px;margin-left:auto;margin-right:auto">
+    <div style="display:flex;flex-direction:column;align-items:center;gap:clamp(7px,1.2vw,12px)">
+      <svg viewBox="0 0 24 24" fill="none" style="width:clamp(25px,3vw,30px);height:clamp(25px,3vw,30px);flex:none" stroke="#C8944F" stroke-width="1.2" stroke-linecap="square"><path d="M3 21V8l6-3v16" /><path d="M9 21V11h6v10" /><path d="M15 21V13h6v8" /><path d="M2 21h20" /></svg>
+      <div style="font-size:clamp(11px,1.05vw,11px);font-weight:600;letter-spacing:0.05em;color:#B9B2A6;text-align:center">Comerciais</div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:clamp(7px,1.2vw,12px)">
+      <svg viewBox="0 0 24 24" fill="none" style="width:clamp(25px,3vw,30px);height:clamp(25px,3vw,30px);flex:none" stroke="#C8944F" stroke-width="1.2" stroke-linecap="square"><path d="M2 21h20" /><path d="M4 21V10h16v11" /><path d="M12 3 3 9h18z" /><path d="M9 21v-6h6v6" /></svg>
+      <div style="font-size:clamp(11px,1.05vw,11px);font-weight:600;letter-spacing:0.05em;color:#B9B2A6;text-align:center">Institucionais</div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:clamp(7px,1.2vw,12px)">
+      <svg viewBox="0 0 24 24" fill="none" style="width:clamp(25px,3vw,30px);height:clamp(25px,3vw,30px);flex:none" stroke="#C8944F" stroke-width="1.2" stroke-linecap="square"><path d="M12 4 2 8l10 4 10-4z" /><path d="M5 10v6l7 3 7-3v-6" /></svg>
+      <div style="font-size:clamp(11px,1.05vw,11px);font-weight:600;letter-spacing:0.05em;color:#B9B2A6;text-align:center">Educacionais</div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:clamp(7px,1.2vw,12px)">
+      <svg viewBox="0 0 24 24" fill="none" style="width:clamp(25px,3vw,30px);height:clamp(25px,3vw,30px);flex:none" stroke="#C8944F" stroke-width="1.2" stroke-linecap="square"><rect x="4" y="4" width="16" height="16" /><path d="M12 8v8M8 12h8" /></svg>
+      <div style="font-size:clamp(11px,1.05vw,11px);font-weight:600;letter-spacing:0.05em;color:#B9B2A6;text-align:center">Hospitalares</div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:clamp(7px,1.2vw,12px)">
+      <svg viewBox="0 0 24 24" fill="none" style="width:clamp(25px,3vw,30px);height:clamp(25px,3vw,30px);flex:none" stroke="#C8944F" stroke-width="1.2" stroke-linecap="square"><path d="M2 21h20" /><path d="M3 21V12l6 3V9l6 3V6l6 3v12" /></svg>
+      <div style="font-size:clamp(11px,1.05vw,11px);font-weight:600;letter-spacing:0.05em;color:#B9B2A6;text-align:center">Industriais</div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:clamp(7px,1.2vw,12px)">
+      <svg viewBox="0 0 24 24" fill="none" style="width:clamp(25px,3vw,30px);height:clamp(25px,3vw,30px);flex:none" stroke="#C8944F" stroke-width="1.2" stroke-linecap="square"><path d="M2 21h20" /><rect x="5" y="6" width="14" height="15" /><path d="M9 10h2M13 10h2M9 14h2M13 14h2" /></svg>
+      <div style="font-size:clamp(11px,1.05vw,11px);font-weight:600;letter-spacing:0.05em;color:#B9B2A6;text-align:center">Hoteleiras</div>
+    </div>
   </div>
-
-  <ul class="canais">
-    <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" width="19" height="19"><path fill="currentColor" d="M17.5 14.4c-.3-.2-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.5v-.5l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4a3 3 0 0 0-.9 2.2A5.2 5.2 0 0 0 7 11.6a11.9 11.9 0 0 0 4.6 4 8.7 8.7 0 0 0 2.5.7 3.4 3.4 0 0 0 2.3-.4 2.7 2.7 0 0 0 1.2-1.3 2.3 2.3 0 0 0 .1-1.2zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m0 1.8a8.2 8.2 0 0 1 6.6 13 8.1 8.1 0 0 1-10.7 1.7l-.4-.2-3 .8.8-3-.2-.4A8.2 8.2 0 0 1 12 3.8"/></svg>
-      <span class="canal-txt">
-        <a href="https://wa.me/5554984346602" target="_blank" rel="noopener">(54) 98434-6602</a>
-        <span class="canal-lab">WhatsApp</span>
-      </span>
-    </li>
-    <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" width="19" height="19"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M6.5 3.5 9 8l-2 2.2a12 12 0 0 0 6.8 6.8L16 15l4.5 2.5v3A1.5 1.5 0 0 1 19 22 17 17 0 0 1 2 5a1.5 1.5 0 0 1 1.5-1.5z"/></svg>
-      <span class="canal-txt">
-        <a href="tel:+555433312756">(54) 3331-2756</a>
-        <span class="canal-lab">Telefone</span>
-      </span>
-    </li>
-    <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" width="19" height="19"><circle cx="12" cy="12" r="9.2" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M3 12h18M12 2.8c5 6 5 12.4 0 18.4-5-6-5-12.4 0-18.4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
-      <span class="canal-txt">
-        <a href="https://construtorasenger.com.br" target="_blank" rel="noopener">construtorasenger.com.br</a>
-        <span class="canal-lab">Site</span>
-      </span>
-    </li>
-    <li>
-      <svg viewBox="0 0 24 24" aria-hidden="true" width="19" height="19"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
-      <span class="canal-txt">
-        <a href="https://instagram.com/construtorasenger" target="_blank" rel="noopener">@construtorasenger</a>
-        <span class="canal-lab">Instagram</span>
-      </span>
-    </li>
-  </ul>
-
-  <div class="qr">
-    <img src="assets/marca/qr_site.png" alt="QR Code do portfólio da Construtora Senger" loading="lazy" width="290" height="290">
-    <span>Escaneie e<br>veja mais<br>sobre a<br>Senger</span>
-  </div>
-
-  <p class="crea">CREA-RS 018767<br>Engenheiro responsável: Cristian Kirinus</p>
 </section>
 
-<a class="wpp-fixo" href="https://wa.me/5554984346602?text=Ol%C3%A1%2C%20vim%20pelo%20portf%C3%B3lio%20de%20obras%20e%20quero%20falar%20sobre%20a%20minha%20obra." target="_blank" rel="noopener">
-  <svg viewBox="0 0 24 24" aria-hidden="true" width="19" height="19"><path fill="currentColor" d="M17.5 14.4c-.3-.2-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.3-.5v-.5l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4a3 3 0 0 0-.9 2.2A5.2 5.2 0 0 0 7 11.6a11.9 11.9 0 0 0 4.6 4 8.7 8.7 0 0 0 2.5.7 3.4 3.4 0 0 0 2.3-.4 2.7 2.7 0 0 0 1.2-1.3 2.3 2.3 0 0 0 .1-1.2zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2m0 1.8a8.2 8.2 0 0 1 6.6 13 8.1 8.1 0 0 1-10.7 1.7l-.4-.2-3 .8.8-3-.2-.4A8.2 8.2 0 0 1 12 3.8"/></svg>
-  Falar com a Senger
-</a>
+<section data-screen-label="Hotel atual" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));background:#0A0E12">
+  <div style="padding:clamp(26px,4vw,54px) clamp(20px,3.4vw,48px);display:flex;flex-direction:column;justify-content:center;gap:clamp(13px,1.5vw,20px)">
+    <div style="align-self:flex-start;padding:clamp(4px,1vw,7px) clamp(7px,1.7vw,14px);border:1px solid rgba(200,148,79,0.5);color:#C8944F;font-size:clamp(9px,1.05vw,10px);font-weight:700;letter-spacing:0.24em;text-transform:uppercase">Em execução</div>
+    <h2 style="margin:0;font-size:clamp(28px,3.4vw,42px);font-weight:800;line-height:1.05;letter-spacing:-0.01em;text-transform:uppercase">Hotel Carazinho</h2>
+    <div style="font-size:clamp(12px,1.25vw,15px);font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:#C8944F;line-height:1.6">A 96ª obra para terceiros<br />da Senger</div>
+    <p style="margin:0;font-size:clamp(13px,1.2vw,15px);line-height:1.7;color:#A8A199;max-width:38ch;text-wrap:pretty">Projeto contemporâneo e de alto padrão, pensado para valorizar a arquitetura, o entorno e a experiência de quem vai usufruir.</p>
+  </div>
+  <video src="assets/hotel_video.mp4" poster="assets/hotel_fachada.jpeg" autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" controls="controls" preload="metadata" style="width:100%;height:100%;min-height:clamp(210px,26vw,380px);object-fit:cover;background:#07090C">Seu navegador não reproduz este vídeo.</video>
+</section>
 
-<script src="script.js"></script>
+<section data-screen-label="Fotos do hotel" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:4px;padding:4px;background:#0A0E12">
+  <figure style="margin:0;position:relative">
+    <img src="assets/hotel_perspectiva.jpeg" alt="Perspectiva do hotel ao entardecer" style="width:100%;height:clamp(200px,22vw,300px);object-fit:cover;display:block" />
+    <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:26px 16px 14px;background:linear-gradient(to top,rgba(7,9,12,0.9),transparent);font-size:11px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:#EDE9E3">Perspectiva ao entardecer</figcaption>
+  </figure>
+  <figure style="margin:0;position:relative">
+    <img src="assets/hotel_fachada.jpeg" alt="Fachada frontal do hotel" style="width:100%;height:clamp(200px,22vw,300px);object-fit:cover;display:block" />
+    <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:26px 16px 14px;background:linear-gradient(to top,rgba(7,9,12,0.9),transparent);font-size:11px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:#EDE9E3">Fachada frontal</figcaption>
+  </figure>
+  <figure style="margin:0;position:relative">
+    <img src="assets/hotel_entrada.jpeg" alt="Acesso principal coberto do hotel" style="width:100%;height:clamp(200px,22vw,300px);object-fit:cover;display:block" />
+    <figcaption style="position:absolute;left:0;right:0;bottom:0;padding:26px 16px 14px;background:linear-gradient(to top,rgba(7,9,12,0.9),transparent);font-size:11px;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:#EDE9E3">Acesso principal</figcaption>
+  </figure>
+</section>
+
+<section data-screen-label="Gerações" style="padding:clamp(38px,5vw,64px) clamp(20px,4vw,48px);background:#0E1319;text-align:center;border-top:1px solid rgba(255,255,255,0.07)">
+  <h2 style="margin:0;font-size:clamp(18px,2.2vw,28px);font-weight:700;letter-spacing:0.06em;text-transform:uppercase">Tradição. Experiência. Futuro.</h2>
+  <p style="margin:clamp(11px,2vw,24px) auto 0;max-width:60ch;font-size:clamp(13px,1.2vw,15px);line-height:1.75;color:#A8A199;text-wrap:pretty">Fundada em 1967, a Senger é uma empresa familiar que reúne mais de cinco décadas de experiência na construção civil.</p>
+  <img src="assets/geracoes.jpg" alt="Sérgio, Cristian e Miguel Kirinus brindando" style="display:block;width:100%;max-width:720px;margin:clamp(24px,3vw,38px) auto 0;height:clamp(170px,21vw,290px);object-fit:cover;object-position:50% 30%;filter:grayscale(1) contrast(1.06) brightness(0.95);mask-image:linear-gradient(to right,transparent 0%,#000 16%,#000 84%,transparent 100%);-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 16%,#000 84%,transparent 100%)" />
+  <div style="margin-top:clamp(30px,4vw,48px);display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));gap:clamp(22px,2.2vw,32px);max-width:900px;margin-left:auto;margin-right:auto">
+    <div style="padding:0 clamp(10px,1.6vw,20px)">
+      <div style="font-size:clamp(14px,1.3vw,16px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Cristian Kirinus</div>
+      <div style="margin-top:8px;font-size:clamp(13px,1.1vw,13px);line-height:1.6;color:#948D82">Proprietário e engenheiro responsável</div>
+    </div>
+    <div style="padding:0 clamp(10px,1.6vw,20px)">
+      <div style="font-size:clamp(14px,1.3vw,16px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Sérgio Kirinus</div>
+      <div style="margin-top:8px;font-size:clamp(13px,1.1vw,13px);line-height:1.6;color:#948D82">Consultor e conselheiro experiente</div>
+    </div>
+    <div style="padding:0 clamp(10px,1.6vw,20px)">
+      <div style="font-size:clamp(14px,1.3vw,16px);font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Miguel Glasenap Kirinus</div>
+      <div style="margin-top:8px;font-size:clamp(13px,1.1vw,13px);line-height:1.6;color:#948D82">4ª geração iniciando como estagiário</div>
+    </div>
+  </div>
+</section>
+
+<footer data-screen-label="Contato" style="padding:clamp(30px,4vw,52px) clamp(20px,4vw,48px);background:#0A0E12;border-top:1px solid rgba(200,148,79,0.28);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:clamp(10px,3vw,40px)">
+  <div style="flex:1 1 clamp(220px,30vw,300px)">
+    <div style="font-size:clamp(16px,1.8vw,22px);font-weight:800;letter-spacing:0.02em;text-transform:uppercase">Tem um projeto para construir?</div>
+    <div style="margin-top:8px;font-size:clamp(13px,1.2vw,14px);line-height:1.6;color:#948D82">Fale com a Senger e conte com quem entende de obra.</div>
+  </div>
+  <a href="https://wa.me/5554984346602" style="display:flex;align-items:center;gap:clamp(7px,1.4vw,14px);color:#C8944F;font-size:clamp(19px,2vw,26px);font-weight:800;letter-spacing:0.01em" style-hover="color:#E3B87C">
+    <svg viewBox="0 0 24 24" fill="currentColor" style="width:clamp(26px,3vw,30px);height:clamp(26px,3vw,30px);flex:none"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l4.9-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 0 1 0 16 8 8 0 0 1-4.2-1.2l-.4-.2-2.6.8.8-2.5-.3-.4A8 8 0 0 1 12 4zm-3.3 4.3c-.2 0-.5.1-.7.3-.3.3-.8.8-.8 1.8s.8 2 1 2.2c.2.2 1.6 2.5 3.9 3.4 1.9.8 2.3.6 2.7.6.4 0 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-1.6-.8c-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1-.3-.1-1.1-.4-2-1.3-.7-.7-1-1.2-1.1-1.4-.1-.2 0-.3.1-.4l.4-.5c.1-.2.1-.3 0-.5l-.7-1.7c-.2-.4-.4-.3-.5-.3z" /></svg>
+    (54) 98434-6602
+  </a>
+</footer>
+
+<div style="padding:14px clamp(18px,4vw,48px);background:#07090C;font-size:clamp(10px,1vw,10px);letter-spacing:0.14em;color:#6E685F;text-transform:uppercase;display:flex;flex-wrap:wrap;gap:5px 16px;justify-content:space-between">
+  <span>CREA-RS 018767 · Eng. responsável: Cristian Kirinus</span>
+  <span>Construtora Senger · Desde 1967</span>
+</div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount() {
+    this.onClick = (e) => {
+      const b = e.target.closest && e.target.closest('[data-nav]');
+      if (!b) return;
+      e.preventDefault();
+      this.step(b.getAttribute('data-nav') === 'prev' ? -1 : 1);
+    };
+    this.onKeyDown = (e) => {
+      if (!e.target.closest || !e.target.closest('[data-track="obras"]')) return;
+      if (e.key === 'ArrowRight') { e.preventDefault(); this.step(1); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); this.step(-1); }
+    };
+    document.addEventListener('click', this.onClick, true);
+    document.addEventListener('keydown', this.onKeyDown, true);
+  }
+  componentWillUnmount() {
+    document.removeEventListener('click', this.onClick, true);
+    document.removeEventListener('keydown', this.onKeyDown, true);
+  }
+  step(dir) {
+    const el = document.querySelector('div[data-track="obras"]');
+    if (!el) return;
+    const card = el.querySelector('figure');
+    const w = card ? card.getBoundingClientRect().width + 14 : el.clientWidth * 0.8;
+    const max = el.scrollWidth - el.clientWidth;
+    const from = el.scrollLeft;
+    const target = Math.max(0, Math.min(from + dir * w, max));
+    if (Math.abs(target - from) < 1) return;
+    if (el.__raf) cancelAnimationFrame(el.__raf);
+    const t0 = performance.now();
+    const tick = (now) => {
+      const p = Math.min(1, (now - t0) / 320);
+      el.scrollLeft = from + (target - from) * (1 - Math.pow(1 - p, 3));
+      el.__raf = p < 1 ? requestAnimationFrame(tick) : null;
+    };
+    el.__raf = requestAnimationFrame(tick);
+  }
+  renderVals() { return {}; }
+}
+</script>
 </body>
 </html>
